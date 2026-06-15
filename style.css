@@ -334,3 +334,18 @@ header p {
         font-size: 0.8rem;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 2px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #888;
+}
+
+footer span {
+    color: #ff9900;
+    /* Accented color for the author name */
+}
