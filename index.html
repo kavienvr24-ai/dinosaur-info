@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWE2 - Ultimate Dinosaur Database</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&family=Syne:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>JWE2 <span>DATABANK</span></h1>
+        <p>InGen Biosyn Integrated Dinosaur & Prehistoric Reptile Species Archive</p>
+        
+
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search species name (e.g., T-Rex, Indominus)...">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">ALL SPECIES</button>
+                <button class="filter-btn" data-filter="carnivore">CARNIVORES</button>
+                <button class="filter-btn" data-filter="herbivore">HERBIVORES</button>
+                <button class="filter-btn" data-filter="flying">FLYING REPTILES</button>
+                <button class="filter-btn" data-filter="marine">MARINE REPTILES</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="stats-counter" id="statsCounter">Displaying All Species</div>
+        <div class="dino-grid" id="dinoGrid">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
